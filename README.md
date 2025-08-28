@@ -13,7 +13,6 @@ This makes the CPU easy to understand, debug, and extend.
 
 ## 🎯 Key Features
 
-![Harvard Architecture](harvard.png)
 
 * **8-bit architecture** (data path width = 8 bits).
 * **Single-cycle execution** (one instruction executes per clock cycle).
