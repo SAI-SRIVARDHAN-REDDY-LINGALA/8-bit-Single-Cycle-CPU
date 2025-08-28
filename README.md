@@ -2,6 +2,10 @@
 
 ## 📌 Overview
 
+<p align="center">
+  <img src="harvard.png" alt="Harvard Architecture" />
+</p>
+
 This project implements a **simple 8-bit Single-Cycle CPU** using **Verilog HDL**.
 The CPU is based on a **Harvard Architecture** (separate instruction and data memory) and supports a **custom instruction set** with arithmetic, logical, memory, and control operations.
 
