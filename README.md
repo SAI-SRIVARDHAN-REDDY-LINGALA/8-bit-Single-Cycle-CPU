@@ -8,9 +8,12 @@ The CPU is based on a **Harvard Architecture** (separate instruction and data me
 The design is modular, meaning each block (ALU, Register File, Control Unit, Memories, etc.) is built as a separate module and then integrated at the top-level CPU.
 This makes the CPU easy to understand, debug, and extend.
 
+
 ---
 
 ## 🎯 Key Features
+
+![Harvard Architecture](harvard.png)
 
 * **8-bit architecture** (data path width = 8 bits).
 * **Single-cycle execution** (one instruction executes per clock cycle).
