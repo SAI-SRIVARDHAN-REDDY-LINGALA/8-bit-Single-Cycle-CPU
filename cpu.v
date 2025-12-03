@@ -68,6 +68,7 @@ module cpu (
     // -------------------------
     // Data Memory
     // -------------------------
+    wire halt;
     wire [7:0] data_mem_out;
 
     data_mem DM (
@@ -126,3 +127,4 @@ end
 
 
 endmodule
+
