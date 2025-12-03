@@ -35,8 +35,8 @@ module instr_mem (
     instructions[11] = 16'b0100_11_01_00000000; // SUB R3, R1   ; R3 = 15 - 5 = 10
 
     // Jump example (conditional not implemented, but shows JMP usage)
-    instructions[12] = 16'b0000_00_00_00000000; // JMP to address 6
-
+    instructions[12] = 16'b0110_00_00_00000110; // JMP 6
+          
     // HALT the CPU
     instructions[13] = 16'b0110_00_00_00000110; // HALT
     instructions[14] = 16'b0101_10_00_00001000; // ADDI R2, 8   ; will be skipped by HALT/JMP
@@ -52,3 +52,4 @@ end
 
 
 endmodule
+
